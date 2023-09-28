@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+*{
+  font-family: 'Mooli', sans-serif;
+}
+body{
+  background: navy;
+}
+h1{
+  color:red;
+}
+.container{
+  text-align: center
+}
+.btn{
+  margin: 10px;
+}
+ button{
+  padding: 20px;
+  border-radius: 90px;
+  font-size: 28px;
+  color: darkviolet;
+  background-color: wheat;
+  box-shadow: 10px;
+  border: none;
+}
+input{
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 20px;
+}
+.btn-bold{
+  font-weight: bold;
+  font-size:32px;
+  margin:15px; 
+  padding:25px;
+}

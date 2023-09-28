@@ -1,23 +1,20 @@
-SystemJS.config({
-  baseURL:'https://unpkg.com/',
-  defaultExtension: true,
-  packages: {
-    ".": {
-      main: './main.js',
-      defaultExtension: 'js'
-    }
-  },
-  meta: {
-    '*.js': {
-      'babelOptions': {}
-    }
-  },
-  map: {
-    'plugin-babel': 'systemjs-plugin-babel@latest/plugin-babel.js',
-    'systemjs-babel-build': 'systemjs-plugin-babel@latest/systemjs-babel-browser.js'
-  },
-  transpiler: 'plugin-babel'
-});
 
-SystemJS.import('./main')
-  .catch(console.error.bind(console));
+let string = "";
+let buttons = document.querySelectorAll('.btn');
+Array.from(buttons).forEach((button)=>{
+  button.addEventListener('click',(e)=>{
+    console.log(e.target)
+    if(e.target.innerHTML == "="){
+      string = eval(string);
+      document.querySelector('input').value = string;
+    }
+    else if(e.target.innerHTML == "C"){
+      string = " ";
+      document.querySelector('input').value = string;
+    }
+    else{
+      string = string + e.target.innerHTML;
+    document.querySelector('input').value = string;
+    }
+  })
+})
