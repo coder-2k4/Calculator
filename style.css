@@ -28,3 +28,13 @@ input{
     border:none;
     box-shadow: 10px 20px 20p 0px rgba(10, 24, 12, 0.987);
 }
+ button{
+  padding: 20px;
+  border-radius: 90px;
+  font-size: 28px;
+  color: whitesmoke;
+  background-color: navy;
+  box-shadow: 10px;
+  border: none;
+  font-weight: bold;
+}
