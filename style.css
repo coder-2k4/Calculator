@@ -11,6 +11,10 @@ h1{
 }
 h1:hover{
   cursor:pointer;
+  font-weight:bold;
+}
+.container{
+  text-align:center;
 }
 input{
     margin: 10px;
