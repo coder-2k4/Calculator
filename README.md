@@ -1,4 +1,4 @@
 # calculator
 My first Calculator which I designed!
 It is a simple user friendly calculator.
-![Screenshot 2023-10-31 6 12 27 AM](https://github.com/coder-2k4/Calculator/assets/134073829/8599a60b-ad3f-4f32-abd8-c07d2efe68ca)
+![Screenshot 2023-11-02 6 37 36 AM](https://github.com/coder-2k4/Calculator/assets/134073829/74025cb4-dae0-4ae9-8bce-6cda6b8355ce)
